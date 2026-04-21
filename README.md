@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=ROSI+VPN+AUTOSCRIPT+!;Explore+the+world+of+features!" alt="Typing SVG" />
@@ -55,6 +54,12 @@ wget -q filename.web.id/changerepos && chmod 777 changerepos && ./changerepos 3 
 
 ### REBUILD DEBIAN 11
 <pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Debian 11 && reboot
+</code></pre>
+### REBUILD DEBIAN 10 SELAIN DO
+<pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Debian 10 && reboot
+</code></pre>
+### REBUILD UBUNTU 20
+<pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Ubuntu 20.04 && reboot
 </code></pre>
 ### SETTING CLOUDFLARE
 ```
