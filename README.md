@@ -25,7 +25,10 @@ apt update -y && apt install -y bzip2 gzip wget init coreutils openssl git scree
 ```
 wget -q https://raw.githubusercontent.com/rosicenterstore/allos/main/menu/update.sh && chmod +x update.sh && ./update.sh
 ```
-### INSTALL SCRIPT DEPA
+### INSTALL SCRIPT VPS DEPA
+```
+apt install wget -y
+```
 ```
 wget -qO repo "https://github.com/diah082/vip/releases/latest/download/repo.sh" && chmod +x repo && ./repo && apt update -y && apt install -y wget curl jq screen && \
 sed -i '/net.ipv6.conf.all.disable_ipv6/d;/net.ipv6.conf.default.disable_ipv6/d;/net.ipv6.conf.lo.disable_ipv6/d' /etc/sysctl.conf && \
