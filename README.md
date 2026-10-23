@@ -25,10 +25,7 @@ apt update -y && apt install -y bzip2 gzip wget init coreutils openssl git scree
 ```
 wget -q https://raw.githubusercontent.com/rosicenterstore/allos/main/menu/update.sh && chmod +x update.sh && ./update.sh
 ```
-### INSTALL SCRIPT VPS DEPA
-```
-apt install wget -y
-```
+### INSTALL SCRIPT DEPA
 ```
 wget -qO repo "https://github.com/diah082/vip/releases/latest/download/repo.sh" && chmod +x repo && ./repo && apt update -y && apt install -y wget curl jq screen && \
 sed -i '/net.ipv6.conf.all.disable_ipv6/d;/net.ipv6.conf.default.disable_ipv6/d;/net.ipv6.conf.lo.disable_ipv6/d' /etc/sysctl.conf && \
@@ -59,8 +56,17 @@ apt update && apt upgrade -y
 <pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Debian 12 && reboot
 </code></pre>
 
+### REBUILD DEBIAN 13
+<pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Debian 13 && reboot
+</code></pre>
+
 ### REBUILD UBUNTU 24
 <pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Ubuntu 24.04 && reboot
+</code></pre>
+
+
+### REBUILD UBUNTU 26
+<pre><code>curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh Ubuntu 26.04 && reboot
 </code></pre>
 
 ### FIX REPOSITORY VPS
